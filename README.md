@@ -7,7 +7,9 @@
 
 ![image](https://jupyter.org/assets/nav_logo.svg)
 
-  Jupyter Notebook 是一個建構於網頁應用程式的開源整合開發環境，允許資料科學團隊像是在筆記本計算一般地撰寫程式、顯示程式和視覺化輸出、支援 Markdown 標記語言與 LaTex 數學方程式的文字段落。其中 Ju 指的是 Julia 語言、py 指的是 Python 語言以及 r 指的是 R 語言。
+  Jupyter Notebook 是一個建構於網頁應用程式的開源整合開發環境，允許資料科學團隊像是在筆記本計算一般地撰寫程式、顯示程式和視覺化輸出、支援 Markdown 標記語言與 LaTex 數學方程式的文字段落。
+  
+  其中 Ju 指的是 Julia 語言、py 指的是 Python 語言以及 r 指的是 R 語言。
   
   而Project Jupyter 由 IPython 專案發跡，主要以支援 Python 語言與 Python 虛擬環境為主。
 
