@@ -5,6 +5,8 @@
 
 ## 開發軟體環境
 
+![image](https://jupyter.org/assets/nav_logo.svg)
+
   Jupyter Notebook 是一個建構於網頁應用程式的開源整合開發環境，允許資料科學團隊像是在筆記本計算一般地撰寫程式、顯示程式和視覺化輸出、支援 Markdown 標記語言與 LaTex 數學方程式的文字段落，從 2014 年推出以來風靡資料科學生態圈，包含 Google 與 Microsoft 也分別基於 Jupyter Notebook 建立 Google Colaboratory 和 Azure Notebook 的瀏覽器解決方案，其中 Ju 指的是 Julia 語言、py 指的是 Python 語言以及 r 指的是 R 語言。
   而Project Jupyter 由 IPython 專案發跡，主要以支援 Python 語言與 Python 虛擬環境為主。
 
@@ -15,9 +17,32 @@ Anaconda 提供完整解決方案，是資料科學團隊的首選推薦，除�
   - 預先安裝好 Python 資料科學應用模組，包含 NumPy、pandas、matplotlib 與 sklearn 等
   
 #### 如欲安裝，可前往 Anaconda 下載頁面，依照不同作業系統點選對應的 Python 3 安裝檔。
+
+![image](https://miro.medium.com/max/3590/1*LVQLaIqcWFcBopPk5LQ_Bg.png)
   
 ## 主程式位置
 
+前面將數據都處理好之後
+
+以下為主要運算之程式碼:
+
+count = 0
+
+  - count用於統計字符串裡某個字符出現的次數。 可選參數為在字符串搜索的開始與結束位置
+
+for i in range(0,len(a)):
+
+  - len為返回列表元素個數
+
+    for j in range(i+1,len(a)):
+    
+        print(i,j)
+        
+        if(a[i]>a[j]):
+        
+            count +=1
+            
+  - 此迴圈讓前一個數一一跟後面的數去做比較
 
 ## 參考資料
 
